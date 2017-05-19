@@ -26,3 +26,4 @@ Route::get('posts/{id}','PostsController@show');
 Route::get('posts/edit/{id}','PostsController@edit');
 Route::put('posts/{id}','PostsController@update');
 Route::delete('posts/{id}','PostsController@destroy');
+Route::post('comment', 'CommnetsController@store');
